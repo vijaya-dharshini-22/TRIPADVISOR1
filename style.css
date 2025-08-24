@@ -1,0 +1,25 @@
+/* Custom CSS for extra styling */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hover effect for hero */
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://source.unsplash.com/1600x600/?travel");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h2, .hero p {
+  color: white;
+}
+
+.card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
